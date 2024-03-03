@@ -185,6 +185,32 @@
 
           </div>
 
+          <!-- Comparison with existing controllers -->
+          <div class="Comparison">
+            <h2>Comparison</h2>
+              The comparative evaluation is performed among the following locomotion controllers that only use proprioception, including
+              Vanilla PPO, RMA, Concurrent and DreamWaQ. The following figure illustrates the learning performance of five
+              different controllers in terms of the average rewards. It indicates that MorAL is the most efficient controller
+              in this multi-morphology task.
+
+              <div align=center>
+              <p><img src="Figures/webpage_reward.png" alt="morphology" width="700" height="300"></p>
+              </div>
+
+              To make the comparison more fair, further analysis conducted on their performance in terms of the robot-specific tasks.
+              The following results indicate MorAL still outperforms other baseline methods. The analysis is conduted on four different
+              specific robot configurations, including Aliengo (FE), ANYMal-B (FKBE), Mini Cheetah-FK (FK), and Mini Cheetah-FEBK (FEBK).
+
+              <div align=center>
+              <p><img src="Figures/reward_specific.png" alt="morphology" width="700"></p>
+              </div>
+
+              The MorAL algorithm also achieve the smallest velocity estimation error and the most robust velcocity tracking performance.
+              <div align=center>
+              <p><img src="Figures/tracking.png" alt="morphology" width="650"></p>
+              </div>
+              
+
           <!-- Selected papers -->
           <div class="publications">
             <h2>Citation</h2>
